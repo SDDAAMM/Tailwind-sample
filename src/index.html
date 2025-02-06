@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Tailwind Practice</title>
+</head>
+
+<body>
+    <!-- Navbar Example with tailwind-->
+    <nav class="bg-blue-800 py-4">
+        <div class="container mx-auto px-2 flex justify-between">
+            <div>
+                <h1 class="text-3xl font-pacifico">
+                    Tailwind Practice
+                </h1>
+            </div>
+            <div>
+                <ul class="flex space-x-4 text-lg">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Courses</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Youtube Link Tailwind example -->
+    <section id="banner" class="bg-indigo-900 py-16">
+        <div class="container mx-auto px-2 flex">
+            <div class="w-1/2 flex flex-col justify-center">
+                <div class="pr-6">
+                    <h3 class="text-red-600 text-x1 uppercase">This is a banner</h3>
+                    <h1 class="text-white text-3xl font-bold py-3">Welcome to this Tailwind example</h1>
+                    <p class="text-white pb-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eveniet molestias dolore et sed obcaecati facere labore aliquid dolor libero dicta,
+                        debitis quibusdam reprehenderit voluptate explicabo molestiae officia aut rerum odit.
+                    </p>
+                    <a class="bg-red-700 text-white inline-block px-6 py2" href="https://www.youtube.com">Go to Youtube </a>
+                </div>
+            </div>
+            <div class="w-1/2">
+                <img class="w-full" src="../images/logo.png" alt="Youtube Logo">
+            </div>
+        </div>
+    </section>
+    <!-- Games Banner Tailwind example -->
+    <section id="games" class="py-16">
+        <div class="container mx-auto px-2">
+            <h2 class="text-3xl font-bold mb-10"> Recent Games </h2>
+        
+        <div class="flex gap-6">
+            <div class="w-1/3 shadow-lg rounded-lg overflow-hidden">
+                <img class="w-full h-100" src="../images/punishing-gray-raven_ew1j.jpg">
+                <div class="px-4 py-6">
+                    <h4 class="font-bold">Punishing: Gray Raven</h4>
+                    <p class="my-3"> Free to Play action mobile gacha game</p>
+                    <a class="bg-red-700 text-white inline-block px-6 py2" href="https://pgr.kurogame.net">Official Website</a>
+                </div>
+            </div>
+
+            <div class="w-1/3 shadow-lg rounded-lg overflow-hidden">
+                <img class="w-full h-100" src="../images/bg_mv.jpg">
+                <div class="px-4 py-6">
+                    <h4 class="font-bold">Monster Hunter World</h4>
+                    <p class="my-3"> Action Game about hunting Monsters</p>
+                    <a class="bg-red-700 text-white inline-block px-6 py2" href="https://www.monsterhunter.com/world">Official Website</a>
+                </div>
+            </div>
+
+            <div class="w-1/3 shadow-lg rounded-lg overflow-hidden">
+                <img class="w-full h-100" src="../images/ror2banner.jpg">
+                <div class="px-4 py-6 justify-center">
+                    <h4 class="font-bold">Risk of Rain 2</h4>
+                    <p class="my-3"> Rogue-like game </p>
+                    <a class="bg-red-700 text-white inline-block px-6 py2" href="https://www.riskofrain.com">Official Website</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- About me Tailwind example -->
+    <section id="about-me" class="py-16">
+        <div class="container mx-auto py-2 flex gap-10">
+
+            <div class="w-1/2 flex flex-col justify-center text-center ">
+                <h2 class="text-3xl font-bold">About Me</h2>
+                <p>
+                    I am a web developer who loves to play games and watch anime. I am currently learning Tailwind CSS
+                </p>
+            </div>
+            
+            <div class="w-1/2 relative">
+                <img class="w-full relative z-10" src="../images/abt-me.jpg">
+                <div class="bg-red-900 h-full w-full absolute top-6 -left-6">
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
